@@ -22,6 +22,7 @@ body {
 }
 .contaer {
     margin: 10px;
+    text-align: center;
 }
 .photo{
     width: 30%;
@@ -48,6 +49,12 @@ body {
     border-radius: 20px;
     margin: 20px;
     padding: 3px;
+   
+}
+.evl li {
+    text-decoration: none;
+    list-style-type: none;
+    margin-left: 0px;
 }
 .form h2{
     text-align: center;
@@ -73,16 +80,18 @@ font-size: 14px;
     margin-right: 10px;
     width: 50%;
 }
-    @media (max-width: 650px){
-        .form {
-            display: block;
-            width: 100%;
-            margin-right: 0;
-        }
-    }    
+    
+       
 
 .forma {
     display: flex;
 }
 
-
+@media (max-width: 650px){
+    .forma {
+       display: block;
+       width: 100%;
+       margin-right: 0;
+       background-image: url("/");
+   }
+}
